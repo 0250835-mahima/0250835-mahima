@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="profile.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Portfolio </title>
+ 
+    <link rel="stylesheet" href="style.css" />
+
+   
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxixons.min.css" rel="stylrsheet">
+  </head>
+ 
+  <body>
+
+    
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio. <span class="animate" style="--i:1;"></span></a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="animate" style="--i:2;"></span>
+
+        </nav>
+    </header>
+
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Mahima</span>  Rathore</h1>
+            <div class="text-animate">
+                <h3><b>WEB Developer</b></h3>
+            </div>
+            <p>"“Web development is the art of turning ideas into digital experiences that shape the world.” ...Web development refers to the creating, building, 
+              and maintaining of websites. It includes aspects such as web design, web publishing, web creation ."</p>
+            <div class="btn-box">
+                <a href= "https://docs.google.com/document/d/1NEVMvLc-JXUpqeCWm6naRL8SeWK0CDH8/edit?usp=sharing&ouid=101551141095768426445&rtpof=true&sd=true" class="btn">Download CV</a>
+                <a href= "https://wa.me/qr/3CJUWS2UCYKQN1" class="btn">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+          <a href="https://www.linkedin.com/in/mahima-rathore-473921240"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAehJREFUWEft18+rTVEUwPHPUwYyQ1EGJjyZKKUkykAmCj0phamkhIGU/IgwJBOlN0VKmWAiyY9CGSj5UZj4A0RJBkpp6RydjnXfuYd33Vv3rrqTtdfe63vXWnutfcYMmIwNGI8RUFNGOkVoOQ5gKV7jPN42HTYd6xnQCjzGrIqDT1iNd9PhdKozMqAr2JlsuoS9/QB6johSXR5hXT+ArmJH4ngSe/oBtBJPMLPi/EtRQ2/6ARQ+A+pgccteFbfsZa9h4vyha4wLsAif8QHfm6KcRWgDjiYbj+BpoV+IKP66HMazom2cwHjF4Afu4gLudALLgHbhcrJhM24V+sV4n9hsxAR2N0TiHA5lNm2ANuF2A9A9rG9KS7G+DTfqtm2AtuBmA1CXLL/MIrWr/gWom5SV58fsizYRf3gtZnQgnYuw/S1tItRNyuLgKPboYR8LL2uKIp6dQMUoipH0V0DdROgr5uNbzfkpxK2rS4yoa70Euo7tieOIbll/1eV9uNhLoLM4lgDFWyrmY12O40wvgSI1JxPH8QJ9kej/sG9T1NVrv6TD6/F0h1pZhuylMAIqszSKUBmJUQ2VzW24b1k0sa1JE4uZU35Oz8H+xOYh7if6eYgxUZcHiN+UwzXZ9/9UQ/fV0Tq0AxehnxyqhyWSr4UxAAAAAElFTkSuQmCC"/></a>
+          <a href="https://github.com/0250835-mahima/0250835-mahima"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA0lJREFUWEft2FnotVMUx/HPa8x4g8xCmW8MmUlCyJB4TReSEEIkRDLLTIYyKyWSSIaEKJlnkTKHkCI3knnq97aPnv/ueZ7znPecizdZd+e/91rru9dee631/OdZxGTeIsbjPwO0DQ7D9lgdq2AxfIvv8DruwQuT3sAkEVoSR+M0bDDQ0ee4Hjfj1yE6Q4Hm40asNsRoy55ELgdJ1HplCNDpuJKZ5Ns5uLSPaBxQQM4Yd6oJ13OFp3bp9AGdPe40E4I0t5+LS9r0u4AOxv2Vwn5YFSdh84EwH5Xc+wBPVdd+aIuP1rzIa4qhdRtO38emjd8H4ih8hU/xGX4vr299rIN7cR/+LnqvIuViJF+U/dH7V9oidAxuryKQ0+05MCpd2x7CAdXisbhjHNCH2LBSfBtbTgn0MrarbMTXxn1Am+G9FscxtsOUQI9hnxYbAQrYAqmv7DxcWCn9VU7x8ZRAayB5s0RlJ6/58i6gR5DX1JRnsPuUMCP1R7FvZevhZm7VEXoNW1cKV+HMGQFdgPP78rMGSkjzZJuSApZCNgtJP7umMvQ9Vu66si+xVqVwC06YBQ0uw1mVrZ+wXBfQW9iiUngSe80I6AEcVNnKiLJeF9Dj2LtS+A0r4ccpoZYuw9sKlZ0XsVMXUHLlohbHKQcXTwmUqSHTQy1zHk2d1Cl+Ia7lF+yKVxYSais8j2Va9NOS0poWSA2U36nUo0aahrgJVixXdgruQorlEFkcR5SOv3yLwifYqGmvrbkeWZxGP4327tIAYziS0vB06fTX4ofK0bLIlJlpIQV17R7y43Frc70NKH97o9FMTyxAz5avjJF+RovDO5zdhnTyPnm3+PhzHFDWt0UaauB+xpolrKkjh5R5KVF4qcNj5qUHe2gyI+1YfMzZ1jfCnowbyu4rWgpa3+l3xnM9G5KLI9uDgbIxZT7lPpJykKr9zYBs3gW54ja5uu/DYdxXRwzmNNe1WN4f6d5tsltJ/OZarinz+E19BxoCFP3Upzur6a4PKLXliYbjlJK82JSRXhkKFCNL4bjypDMR7NEShZGzfPMn4b8un1KZ0ecM811UkwCNbOSfCmnAb445bKrzO/hjXFSa6wsDNIn9iff+DzQuZP8AsgGUJfU7z6YAAAAASUVORK5CYII="/></a>
+          <a href="https://instagram.com/sizzle_maahi?igshid=ZDc4ODBmNjlmNQ=="><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAudJREFUWEft113o3mMYB/DPopRyNgfysnld3ttKyU4oOdAaJiJSoqxx4MCy7IXNy8YaKZJSzJyYeU/KiQNK0l7KWzG0A0yRHeGA6Kv70X/Pfr/7/v3z/Nf/YNfJU8993d/7+7uu731d1z3HLLM5s4yPI4RaGZlOhM7DQszHUS3gsv4XvsNufD5kzxBCN2IDzhgCWPH5GmuwvYZTI3QCXsTl/5PI+Pb3cAt+6sKtEXofl06YzAjuXVw5HULX4+UZIjOCXYbXx8/oi9A3OG0ChP7EE/ii6Of0KZj579whhHKbPp0AmUC8jaUFK79vjuGehO+n/tcVoetaN6EA/IIt+AS7cAwuxMVYiWOxp5SKbLkNz40RWoJ3WoRW4OlGhF7D7fi1x28ensdl+Bi58jfg6DH/5Xi2RehebKoQegG3lvVo4iKcg7+LVhKxb/m3LX2AxRWsnPVYi9D9eKAHZD9OxR+4oPhdM+b7KoKRyhzfL0s6uyBX45EWoVTltT2E7sPGctBmXNvj90rR0T5sw80NvP+Wu0T9EMK8y87HZxgi/JCN1mqaTCt5uBWhGqHj8TPWYX1D+KPD0pBzC7ssqU1GqhGqpexE/FCK3IMNQqP01upaPuogvXalrEboEnyElP2It2ZXl0KYRrq1xzGRPujDugiFdRy7LOmM4E/Go8ho0mUvYVWpwmkdd/f4DdJQjVD0cwp+x5nlet80dlhuVTDSDzNDRT/H9RAK6XxYVUNhXdNHDkwaYtHUIpxdCmNqzk78iLn4EAsqeU3knmwRuhNPNfSR65zedKDHLxpLSwipmg1qHam8ObBlmfgeLxHJzJyScEXp7kOnzKvwVitCCX9mlcNhZ5XGW9VQFvdi6jA1E+S+6tJX38SYUL4xEyymYB4yC2WtNuSn8EWcM2E7Sj88BLtGKBNfRHvHhBk9g3vwWxfukIdiniupFZN4KN6FvMt6bQih0eZZ85SecMbqcNOJ0GEhdoRQK8z/ACijiSXtLldXAAAAAElFTkSuQmCC"/></i></a>
+          
+          <div class="home-imgHover"></div>
+    </section>
+        
+
+
+
+ 
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <div class="about-img">
+        <img src="profile.png" alt="">
+        
+      </div>
+      <div class="about-content">
+        <h3>WEB Developer</h3>
+        <p>I am a second-year student pursuing a Bachelor's degree in Computer Applications (BCA) from PSIT Kanpur. With a eager interest in programming, Alongside my skills, I possess strong decision-making abilities and excel in web designing and development. My adore hobby is dancing, allowing me to express my creativity beyond the realm of technology. My ultimate goal is to become a versatile full stack web developer, blending my technical expertise and passion for creating engaging online experiences.</p>
+        <div class="btn-box btns">
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      
+
+      </div>
+      
+    </section>
+ 
+    <!-- education section design -->
+
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Journey</span></h2>
+      <div class="education-row">
+        <div class="education-column">
+          <h3 class="title">Education</h3>
+          <div class="education-box">
+            
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAATNJREFUWEft2LFKxEAQxvHfgfbaCzbaCrZa6MMoCj6E+g6CIPguCvZXWIudiL6BNnKSSIjJ7W6yBwlku2RmZ/75dnaSzczAxmxgPEYNdIXLQtFrLK6XjVT/31gpCqUmSPUfF9Au7nCI9cyF/40nnOKlHrtpybYxx2ZmkHq4T+zhvWpoArrAzYphyvBnxUr8pWsCqhbjqrn+7dYQ0CMeMlMd46itfYSAYvpNKu/SdjA6oMEtWepypPonF3VqglT/CSikWC+FqpPbtm7M/SrkBFR+xLW9jnopFKqHLvYJKKRaL4WmXVbKG7MjYvpNm6LZ+lCoHrrYe9VQl4ShOeMEOsdt6NEy2aNOHVt4xkampG1hPrCPt9C5bGHfwT0OsJYZ7Ks4uZ7gtR475WdDZq7mcBNQSOYfScB0JfYFa6QAAAAASUVORK5CYII="/>2018 -2019</div>
+                <h3>Stepping Stones Intermediate College - High School</h3>
+                <p>Stepping Stones Intermediate College, associated with Kanpur, is an exceptional institution that has nurtured countless students to achieve their full potential. In the academic year 2018-2019, I completed my high school education at this esteemed school, securing an impressive 75.33 percentile in the UP Board. Beyond academics, my passion is for dancing here I found a platform at Stepping stones Intermediate College. The school's commiment is to 
+                  something that allows you to make progress or helps you to achieve something, along with its vibrant extracurricular activities,truly sets it apart. SSIC is where students achieve, dreams take flight.</p>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAATNJREFUWEft2LFKxEAQxvHfgfbaCzbaCrZa6MMoCj6E+g6CIPguCvZXWIudiL6BNnKSSIjJ7W6yBwlku2RmZ/75dnaSzczAxmxgPEYNdIXLQtFrLK6XjVT/31gpCqUmSPUfF9Au7nCI9cyF/40nnOKlHrtpybYxx2ZmkHq4T+zhvWpoArrAzYphyvBnxUr8pWsCqhbjqrn+7dYQ0CMeMlMd46itfYSAYvpNKu/SdjA6oMEtWepypPonF3VqglT/CSikWC+FqpPbtm7M/SrkBFR+xLW9jnopFKqHLvYJKKRaL4WmXVbKG7MjYvpNm6LZ+lCoHrrYe9VQl4ShOeMEOsdt6NEy2aNOHVt4xkampG1hPrCPt9C5bGHfwT0OsJYZ7Ks4uZ7gtR475WdDZq7mcBNQSOYfScB0JfYFa6QAAAAASUVORK5CYII="/>2020 -2021</div>
+                <h3>Stepping Stones Intermediate College- Intermediate</h3>
+                <p>Located in kanpur,Govind nagar, Stepping stones intermediate college is a renowned educational institution that has made a significant impact on countless students. As a proud alumnus, I completed my intermediate education in the session of 2020-2021, achieving a commendable 80 percentile in the UP Board examinations. Dancing is my cherished hobby, found its perfect stage at this exceptional school. 
+                  SSIC stands out for Stepping stones or stepstones are sets of stones arranged to form an improvised causeway that allows a pedestrian to cross a natural watercourse such as a river; or a water feature in a garden where water is allowed to flow between stone steps. fostering both academic excellence and the pursuit of individual passions.
+                   it allows you to something that stepping stone to bigger and better things., along with its vibrant extracurricular activities,truly sets it apart. SSIC is where students can take a  dream flight.</p>
+          </p>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAATNJREFUWEft2LFKxEAQxvHfgfbaCzbaCrZa6MMoCj6E+g6CIPguCvZXWIudiL6BNnKSSIjJ7W6yBwlku2RmZ/75dnaSzczAxmxgPEYNdIXLQtFrLK6XjVT/31gpCqUmSPUfF9Au7nCI9cyF/40nnOKlHrtpybYxx2ZmkHq4T+zhvWpoArrAzYphyvBnxUr8pWsCqhbjqrn+7dYQ0CMeMlMd46itfYSAYvpNKu/SdjA6oMEtWepypPonF3VqglT/CSikWC+FqpPbtm7M/SrkBFR+xLW9jnopFKqHLvYJKKRaL4WmXVbKG7MjYvpNm6LZ+lCoHrrYe9VQl4ShOeMEOsdt6NEy2aNOHVt4xkampG1hPrCPt9C5bGHfwT0OsJYZ7Ks4uZ7gtR475WdDZq7mcBNQSOYfScB0JfYFa6QAAAAASUVORK5CYII="/>2021 -2024</div>
+                <h3>PSIT College of Higher Education - BCA </h3>
+                <p>In pursuit of a Bachelor's degree in Computer Applications (BCA) from PSIT Kanpur (session 2021-2024), I am a passionate student currently in my second year. Proficient in HTML, CSS, C language, and Python, I possess a diverse programming skill set. Alongside my technical prowess, my professional strengths lie in decision-making, web designing, and web development. Singing holds a special place in my heart as a cherished hobby. Ultimately, my ambition is to evolve into a skilled full-stack web developer. With determination and a love for innovation, I am poised to make my mark in the ever-evolving world of web development.</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- skill section design -->
+
+
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-row">
+
+        <div class="skills-column">
+          <h3 class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coding Skills</h3>
+          <div class="skills-box">
+            <div class="skills-content">
+              
+              <div class="progress">
+                <h3>HTML <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>CSS <span>30%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              
+              <div class="progress">
+                <h3>C <span>40%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Python <span>10%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+<br>
+
+        <div class="skills-column">
+          <h3 class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Professional Skills</h3>
+          <div class="skills-box">
+            <div class="skills-content">
+              
+              <div class="progress">
+                <h3>Web Design <span>40%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Web Development <span>30%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Time Management <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Decision Making <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+
+
+ 
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span> </h2>
+      
+      <form action="#">
+        
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Full Name" required>
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Address" required>
+            <span class="focus"></span>
+          </div>
+        </div>
+
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="number" placeholder="Mobile Number" required>
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Subject" required>
+            <span class="focus"></span>
+          </div>
+        </div>
+        
+        <div class="textarea-field">
+          <textarea name="text" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Submit</button>
+
+        </div>
+      </form>
+    </section>
+
+
+ 
+    <!-- footer design -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Mahima Rathore | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAmRJREFUWEfd2MurzVEUwPHPnQgJAyYMSCmlDKQkijIw8BdI3pQibwbypuSVUhgQJQyNjAzEACmSiWLgUR5hRilStPQ7t9vp99j73NPpZNXp1Pmtx/esvffaa/0G9JkM9BmP/wZoAZZhLiYWn0j2V3zBY9zAo9wVyMnQSGzENkxJDPQaZ3EJP1NsUoHW4gQmpDgt0YmsbcfNJvsUoADZ0+Qo8fl+HKvTrQOKZ1exKjFYqto5bK1SrgO6WOyZ1EA5ekdwsMygCmgHzuRE6EB3Ba6325UBjccHjM4I8q7QTT19oR4xpuHX0DhlQIdxIAMmHM8v9B9gcobtZpyvAxqBz4gspcjHAuZtoTwVATUpxRiR2bAZlPYMLcXtRGetzLSWq2UWy5aTqdl41jJuB7qCNQlAVTCdQEVdivr0T9qBnmNWA1ATTC7UHSypAopgdeufCpMD9QIzq4B+YFRFhnJhUqG+YVwV0HeMSdhDQ1WiTBwqfojv0gpc4zNijq0CeoXpPQZ6iRlVQPewsMdAd7G4CugUdvUY6Dj2VgHNw8MeA83B0yqgqEvvM0p/+BnOpn5TXLCDOSi7XGPJYulSZThAm3BhaKAyoKhDcT/FNJEi9xGHIWRRxqFIbj/C8fpiUkgB6lRneVnTX9fCnsTuTqM12FU2+01Tx2Ws6zJUzGnRIpdKE1AYHcW+LkD9Kcap03W+UoDCfnVx8jodFGMDb8Gtpj+WChR+YpTegJ0Zo3TcU7EXr+F3E0w8zwFq+QubaOpXItrP1suGWJJ42fCpeMkQY/OTFIimOpTro6v6nWSoqwDtzvoO6C+jAHEl71cRJwAAAABJRU5ErkJggg=="/></a>
+      </div>
+    </footer>
+
+    <script src="https://github.com/0250835-mahima/0250835-mahima/script.js"></script>
+ 
+      </body>
+</html>
